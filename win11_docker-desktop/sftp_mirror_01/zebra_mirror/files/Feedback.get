@@ -1,0 +1,129 @@
+<device.unique_id>.txt
+###########################################
+CAUTION! CAUTION! CAUTION! CAUTION! CAUTION! 
+
+This program is for test purpose only!!!
+Please do test before using under operating environment!!!
+
+
+CAUTION! CAUTION! CAUTION! CAUTION! CAUTION! 
+###########################################
+Zebra Technologies
+Feed back.get Results 2022/02/18 Updated
+Autor: Zebra Senior Sales Engineer
+###########################################
+
+
+# General
+---------------------
+Type		= <device.product_name>
+SKU		= <device.configuration_number>
+Firmware	= <appl.name>
+Serial number	= <device.unique_id>
+
+
+# Bluetooth
+---------------------
+Version		= <bluetooth.version>
+Date		= <bluetooth.date>
+Friendly name	= <bluetooth.friendly_name>
+Min security	= <bluetooth.minimum_security_mode>
+Discoverable	= <bluetooth.discoverable>
+Radio ver	= <bluetooth.radio_version>
+Enable		= <bluetooth.enable>
+Connected	= <bluetooth.connected>
+Long Address	= <bluetooth.address>
+Short Address	= <bluetooth.short_address>
+
+
+# Networks
+---------------------
+DHCP		= <ip.dhcp.enable>
+DHCP Server	= <ip.dhcp.lease.server>
+IP Address	= <ip.addr>
+Netmask		= <ip.netmask>
+Gateway		= <ip.gateway>
+Port		= <ip.port>
+
+
+# Mirror
+---------------------
+Server		= <ip.mirror.server>
+Home Dir	= <ip.mirror.path>
+Appl Dir	= <ip.mirror.appl_path>
+Feedback Dir	= <ip.mirror.feedback.path>
+Mode		= <ip.mirror.mode>
+Success	Date	= <ip.mirror.last_time>
+Error Msg	= <ip.mirror.last_error>
+
+
+# Ntp/RTC
+---------------------
+Ntp Enabled	= <ip.ntp.enable>
+Ntp Server	= <ip.ntp.servers>
+RTC Time	= <rtc.time>
+RTC Date	= <rtc.date>
+RTC Timezone	= <rtc.timezone>
+RTC Exists	= <rtc.exists>
+
+
+
+# Display
+---------------------
+Language	= <display.language>
+
+
+# Media Settings
+---------------------
+Printmode	= <ezpl.print_mode>
+Thermal mode	= <media.thermal_mode>
+Sense mode	= <media.sense_mode>
+Speed		= <media.speed>
+Darkness	= <print.tone_zpl>
+Width		= <ezpl.print_width>
+Max length	= <ezpl.label_length_max>
+
+
+# Printer Actions
+---------------------
+Media power up	= <ezpl.power_up_action>
+Media head close= <ezpl.head_close_action>
+
+
+# RFID Settings
+---------------------
+rfid.reader_1.power.read	= <rfid.reader_1.power.read>
+rfid.reader_1.power.write	= <rfid.reader_1.power.write>
+rfid.position.program		= <rfid.position.program>
+rfid.reader_1.antenna_port	= <rfid.reader_1.antenna_port>
+
+
+# Syslog
+---------------------
+Enable		= <device.syslog.enable>
+Config		= <device.syslog.configuration>
+Local file	= <device.syslog.save_local_file>
+
+
+# ZBI
+---------------------
+Enable		= <zbi.enable>
+State		= <zbi.state>
+key		= <zbi.key>
+Running Program	= <zbi.running_program_name>
+
+
+# Virtual Devices
+---------------------
+<apl>
+
+# Maintenance
+---------------------
+Label length/odo= <odometer.total_print_length>
+Print length/odo= <odometer.label_dot_length>
+
+
+# Stored Files
+---------------------
+<file.dir>
+

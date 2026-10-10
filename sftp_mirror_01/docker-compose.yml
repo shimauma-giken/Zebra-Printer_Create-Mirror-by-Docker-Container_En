@@ -1,0 +1,21 @@
+services:
+  zebra-sftp:
+    image: atmoz/sftp:latest
+    container_name: sftp_mirror_01
+    volumes:
+      - ./zebra_mirror:/home/zebra/mirror
+    command: zebra:zebra:1002:1002:mirror
+    restart: unless-stopped
+    networks:
+      zebra_net:
+        ipv4_address: 192.168.4.225 # <-- Mirror用の公開IP（ホストのIPとは別）
+
+networks:
+  zebra_net:
+    driver: ipvlan # <-- ipvlanを使用（macvlanは無線に非対応）
+    driver_opts:
+      parent: wlp2s0 # <-- お使いの物理インターフェース名（eno1, wlan0 等、ip route get 8.8.8.8で確認）
+    ipam:
+      config:
+        - subnet: 192.168.4.0/24
+          gateway: 192.168.4.254

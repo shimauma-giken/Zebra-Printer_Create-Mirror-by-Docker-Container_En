@@ -1,0 +1,332 @@
+
+###########################################
+CAUTION! CAUTION! CAUTION! CAUTION! CAUTION! 
+
+This program is for test purpose only!!!
+Please do test before using under operating environment!!!
+
+
+CAUTION! CAUTION! CAUTION! CAUTION! CAUTION! 
+###########################################
+Zebra Technologies
+Feed back.get Results 2022/02/18 Updated
+Autor: Zebra Senior Sales Engineer
+###########################################
+
+
+# General
+---------------------
+Type		= ZD621R
+SKU		= ZD6A143-30PFR2EZ
+Firmware	= V93.21.49Z
+Serial number	= DBJ233203930
+
+
+# Bluetooth
+---------------------
+Version		= 6.3
+Date		= 11/05/2021
+Friendly name	= CSCDBJ233203930
+Min security	= 3
+Discoverable	= off
+Radio ver	= 5.2
+Enable		= on
+Connected	= no
+Long Address	= 60:95:32:0D:37:E6
+Short Address	= 6095320D37E6
+
+
+# Networks
+---------------------
+DHCP		= off
+DHCP Server	= 0.0.0.0
+IP Address	= 192.168.4.165
+Netmask		= 255.255.255.0
+Gateway		= 192.168.4.254
+Port		= 6101
+
+
+# Mirror
+---------------------
+Server		= 192.168.4.225
+Home Dir	= /mirror
+Appl Dir	= /mirror
+Feedback Dir	= /mirror/feedback
+Mode		= sftp
+Success	Date	= Sep 28 2026 11:29:28
+Error Msg	= Too many files in the firmware download directory
+
+
+# Ntp/RTC
+---------------------
+Ntp Enabled	= on
+Ntp Server	= ntp.nict.jp
+RTC Time	= 11:29:29
+RTC Date	= 09-28-2026
+RTC Timezone	= UTC-09
+RTC Exists	= yes
+
+
+
+# Display
+---------------------
+Language	= japanese
+
+
+# Media Settings
+---------------------
+Printmode	= tear off
+Thermal mode	= TT
+Sense mode	= gap
+Speed		= 4.0
+Darkness	= 25.0
+Width		= 791
+Max length	= 15
+
+
+# Printer Actions
+---------------------
+Media power up	= no motion
+Media head close= feed
+
+
+# RFID Settings
+---------------------
+rfid.reader_1.power.read	= 14
+rfid.reader_1.power.write	= 16
+rfid.position.program		= B3
+rfid.reader_1.antenna_port	= A1
+
+
+# Syslog
+---------------------
+Enable		= on
+Config		= DEBUG,LOCAL;DEBUG,192.168.4.235
+Local file	= yes
+
+
+# ZBI
+---------------------
+Enable		= on
+State		= off
+key		= DISABLED 
+Running Program	= 
+
+
+# Virtual Devices
+---------------------
+apl.
+apl.enable : none , Choices: apl-d,apl-i,apl-s,pdf,none
+apl.framework_version : 2.1 
+apl.version : none 
+apl.installed_versions : apl-d:2.0,apl-i:2.0,apl-s:1.25-006824A_P02,pdf:2.06,,, 
+apl.settings : APL-S,1,,Normal,0,0,off,END 
+apl.o.
+apl.o.graphics_byte_width : 160 , Choices: 0-255
+apl.d.
+apl.d.legacy : on , Choices: on,off
+apl.i.
+apl.i.crop_to_length : off , Choices: on,off
+
+
+# Maintenance
+---------------------
+Label length/odo= 716 INCHES, 1821 CENTIMETERS
+Print length/odo= 0
+
+
+# Stored Files
+---------------------
+
+- DIR *:*.* 
+* E:BIZUDPG.TTF   4515260          
+* E:CGTRI_N.FNT     45407          
+* E:CG_TIMES.TTF     62252          
+* E:CG_TRIUMVIRATE.TTF     63560          
+* E:DEL_STAMP.ZPL        43          
+* E:FEEDBACK.GET      2994          
+* E:FONTM.FNT     12716          
+* E:FONTOA08.FNT      7040          
+* E:FONTOA12.FNT      9316          
+* E:FONTOB08.FNT     10177          
+* E:FONTS.FNT      8041          
+* E:FONTU.FNT      6910          
+* E:FONTWB.FNT     25396          
+* E:FONTWL.FNT     51829          
+* E:FONTXB.FNT     43353          
+* E:FONTXB_FIXED.FNT     69748          
+* E:FONTXL.FNT     44540          
+* E:FONTXL_FIXED.FNT     69718          
+* E:FONTXM.FNT     16058          
+* E:FONTXM_FIXED.FNT     19273          
+* E:FONTXS.FNT     10036          
+* E:FONTXS_FIXED.FNT     15130          
+* E:FONTXU.FNT      6919          
+* E:FONTXU_FIXED.FNT      6919          
+* E:GOTHIC24.FNT    536450          
+* E:JIS.DAT     28232          
+* E:LABEL_A.RPF       212          
+* E:LABEL_B.RPF       212          
+* E:NOTOMRJ.TTF  18257232          
+* E:NSJP-BLACK.TTF   5463444          
+* E:NSJP-BOLD.TTF   5468188          
+* E:NSJP-MEDIUM.TTF   5469400          
+* E:NSJP-REGULAR.TTF   5472784          
+* E:OFL_BIZUDPG.TXT      4501          
+* E:OFL_NSJP.TXT      4481          
+* E:PASS_ALL.ZPL       140          
+* E:PASS_NON.ZPL       139          
+* E:RFID_CAL.TXT       573          
+* E:SET_CALB.ZPL        27          
+* E:SYSLOG.TXT    399969          
+* E:S_CP737.DAT      1024          
+* E:S_CP850_0.DAT      1024          
+* E:S_CP850_1.DAT      1024          
+* E:S_CP864.DAT      1024          
+* E:S_CP885.DAT      1024          
+* E:S_HELVETICA_A.TTF     66424          
+* E:S_HELVETICA_B.TTF     66776          
+* E:S_ISO_8859_1.DAT      1024          
+* E:S_ISO_8859_2.DAT      1024          
+* E:S_ISO_8859_5.DAT      1024          
+* E:TIMESTAMP.DAT       324          
+* E:TT0003M_.TTF    169238          
+* E:USBTIMESTAMP.DAT       432          
+* Z:0.TTF    126024  P    0  
+* Z:A.FNT      6839  P    A  
+* Z:ALERTCFG.NRD      5877  P       
+* Z:AZTEC.BAR         0  P       
+* Z:B.FNT      7746  P    B  
+* Z:BTSYMBOL.PCX       884  P       
+* Z:CODABAR.BAR         0  P       
+* Z:CODABLK.BAR         0  P       
+* Z:CODE11.BAR         0  P       
+* Z:CODE128.BAR         0  P       
+* Z:CODE39.BAR         0  P       
+* Z:CODE49.BAR         0  P       
+* Z:CODE93.BAR         0  P       
+* Z:D.FNT     10648  P    CD 
+* Z:E12.FNT     15691  P    E  
+* Z:E24.FNT     47056  P       
+* Z:E6.FNT      8520  P       
+* Z:E8.FNT     10893  P       
+* Z:EAN-13.BAR         0  P       
+* Z:EAN-8.BAR         0  P       
+* Z:ELEMENTOUT.ZPL      3830  P       
+* Z:EPL1.FNT     17718  P       
+* Z:EPL2.FNT     20918  P       
+* Z:EPL3.FNT     24118  P       
+* Z:EPL300-1.FNT     24118  P       
+* Z:EPL300-2.FNT     30518  P       
+* Z:EPL300-3.FNT     51318  P       
+* Z:EPL300-4.FNT     72686  P       
+* Z:EPL300-5.FNT    107958  P       
+* Z:EPL4.FNT     32870  P       
+* Z:EPL5.FNT     58038  P       
+* Z:EPL6.FNT      8498  P       
+* Z:EPL7.FNT      8928  P       
+* Z:F.FNT     13275  P    F  
+* Z:FIRSTDOTLOCATION.ZPL     10420  P       
+* Z:FONT0.FNT      5901  P       
+* Z:FONT1.FNT      7134  P       
+* Z:FONT2.FNT     11484  P       
+* Z:FONT3.FNT     10804  P       
+* Z:FONT4.FNT     15676  P       
+* Z:FONT5.FNT     19852  P       
+* Z:FONT6.FNT     27508  P       
+* Z:FONT7.FNT     11252  P       
+* Z:FONT8.FNT      6412  P       
+* Z:G.FNT     49663  P    G  
+* Z:GS.FNT      5470  P    ?  
+* Z:H12.FNT     11536  P    H  
+* Z:H24.FNT     30436  P       
+* Z:H6.FNT      7247  P       
+* Z:H8.FNT      7825  P       
+* Z:I2OF5.BAR         0  P       
+* Z:IDMATRIX.BAR         0  P       
+* Z:IMAGECOMPRESSION.ZPL      9524  P       
+* Z:IND2OF5.BAR         0  P       
+* Z:LANGUAGE.BMP       400  P       
+* Z:LMU.FNT     10820  P       
+* Z:LMV.FNT     11640  P       
+* Z:LMW.FNT     11640  P       
+* Z:LMX.FNT     11640  P       
+* Z:LMY.FNT     23480  P       
+* Z:LMZ.FNT     14340  P       
+* Z:LOGMARS.BAR         0  P       
+* Z:LOGO.PNG     20154  P       
+* Z:MAXICODE.BAR         0  P       
+* Z:MIB200.TXT     45159  P       
+* Z:MICROPDF.BAR         0  P       
+* Z:MSICODE.BAR         0  P       
+* Z:NETWORK.BMP       400  P       
+* Z:ONEDOT.BMP        58  P       
+* Z:P.FNT       116  P    P  
+* Z:PDF417.BAR         0  P       
+* Z:PLANETCD.BAR         0  P       
+* Z:PLESSEY.BAR         0  P       
+* Z:PORTS.BMP       400  P       
+* Z:POSTNET.BAR         0  P       
+* Z:Q.FNT       116  P    Q  
+* Z:QRCODE.BAR         0  P       
+* Z:R.FNT       116  P    R  
+* Z:REGDB.NRD    590707  P       
+* Z:RESETNET.NRD         3  P       
+* Z:RFIDRCPE.XML     41475  P       
+* Z:RFID_HOP.NRD    106198  P       
+* Z:RSS.BAR         0  P       
+* Z:S.FNT       116  P    S  
+* Z:S2OF5.BAR         0  P       
+* Z:SELFSIGNED_CERT.PEM      1086  P       
+* Z:SENSORS.BMP       400  P       
+* Z:SERVER      2048  P       
+* Z:SETTINGS.BMP       400  P       
+* Z:SIGNAL_STRENGTH_0_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_1_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_2_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_3_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_4_BAR_ICON.BMP       128  P       
+* Z:T.FNT       116  P    T  
+* Z:T0000.FNT      7532  P       
+* Z:T0001.FNT      8044  P       
+* Z:T0002.FNT     12376  P       
+* Z:T0007.FNT      7532  P       
+* Z:T0020.FNT       116  P       
+* Z:T0021.FNT       116  P       
+* Z:T0022.FNT       116  P       
+* Z:T0023.FNT     27436  P       
+* Z:T0024.FNT     25048  P       
+* Z:T0025.TTF     92552  P       
+* Z:T0026.TTF     96400  P       
+* Z:T0028.TTF    121260  P       
+* Z:T0030.FNT       116  P       
+* Z:T0031.FNT       116  P       
+* Z:T0032.FNT       116  P       
+* Z:T0033.FNT       116  P       
+* Z:T0034.FNT       116  P       
+* Z:T0035.FNT       116  P       
+* Z:T0036.FNT       116  P       
+* Z:T0037.FNT       116  P       
+* Z:T0038.FNT       116  P       
+* Z:T0039.FNT       116  P       
+* Z:T0040.FNT       116  P       
+* Z:T0041.FNT       116  P       
+* Z:T0061.TTF    169188  P       
+* Z:T0062.TTF    129380  P       
+* Z:T0067.TTF    664972  P       
+* Z:TLC39.BAR         0  P       
+* Z:TOOLS.BMP       400  P       
+* Z:TT0003M_.TTF    169188  P       
+* Z:TT0005M_.TTF    141592  P       
+* Z:U.FNT       116  P    U  
+* Z:UIF.SS     11596  P       
+* Z:UPC-A.BAR         0  P       
+* Z:UPC-E.BAR         0  P       
+* Z:UPC-EAN.BAR         0  P       
+* Z:UTT.SS     11588  P       
+* Z:V.FNT       116  P    V  
+
+-   7569408 bytes free R: RAM 
+-  17698816 bytes free E: ONBOARD FLASH 
+
+

@@ -1,0 +1,11 @@
+services:
+  zebra-sftp:
+    image: atmoz/sftp:latest
+    container_name: sftp_mirror_01
+    volumes:
+      - ./zebra_mirror:/home/zebra/mirror
+    # Windows向けにUID:GID (1002:1002) を除外し、ユーザー:パスワード:ディレクトリ の構成に変更
+    command: zebra:zebra:::mirror
+    ports:
+      - "22:22" # ホストの2222番ポートをコンテナの22番（SFTP）にマッピング
+    restart: unless-stopped
